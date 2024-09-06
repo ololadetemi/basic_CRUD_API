@@ -11,7 +11,7 @@ const testSchema = mongoose.Schema(
             required: true,
             default: 0
         },
-        Score: {
+        score: {
             type: Number,
             required: true,
             default: 0,

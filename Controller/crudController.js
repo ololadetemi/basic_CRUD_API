@@ -1,4 +1,4 @@
-const Test = require('./models/testSchema');
+const Test = require('../models/testSchema');
 
   //Fetch data from database
   const getAllStudents = async(req, res) =>{
