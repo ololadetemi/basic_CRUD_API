@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
 const Test = require('./models/testSchema');
 const crudRoutes = require('./Routes/crudRoutes');
 
